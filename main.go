@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "dev-ops-ninja:v10.11-cassucloud.ml"
+const webContent = "dev-ops-ninja:v10.11-cassucloud.ml--- HELLO HELLO"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
